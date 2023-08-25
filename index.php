@@ -54,11 +54,18 @@ $row=sqlsrv_fetch_array($run,SQLSRV_FETCH_ASSOC);
                     <input type="file">
                 </button>
             </div> -->
+            <div id="selectbanner" class="upload">
+              <img src="noprofil.jpg" width=100 height=100 alt="">
+              <div class="round">
+                <input type="file" name="img" id="img">
+                <i class="fa fa-camera" style="color:#fff;"></i>
+              </div>
+            </div>
             
                 <label for="img">Image:
                 <input type="file" class="form-control" name="img" id="img" /></label>
          
-            <div id="selectedBanner"></div>  
+            <!-- <div id="selectedBanner"></div>   -->
             <div class="savebtn">
             <button  class="btn btn-success " type="submit" name="save">Save</button>
             </div>
