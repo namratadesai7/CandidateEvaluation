@@ -47,12 +47,7 @@ h2{
     
 }
 
-label {
-    display: block !important;
-    margin-top: 10px !important; 
-    margin-left: 20px !important;
-    width: 80%;
-}
+
 button{
     display: flex;
     justify-content: center;
@@ -96,9 +91,60 @@ opacity: 0;
 .btn-warning:hover{
 background:#d94a00;
 }
+ /* .hero{
+    width:100%;
+    height: 100vh;
+    background:#d1d1d1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  */
+ /* .card{
+    margin-top: 10px !important; 
+    margin-left: 20px !important;
+    width:400px;
+    background-color: transparent ;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    /* color: #333; */
 
+.image{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+ img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 40px;
+    
+    margin-bottom: 30px;
+}
+.abc{
+    display: block;
+    text-align: center;
+    width: 200px;
+    background: #e3362c;
+    color: #fff;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    display: none;
+}
 
-.upload{
+label {
+    display: block !important;
+    margin-top: 10px !important; 
+    margin-left: 20px !important;
+    width: 80%;
+}
+/* .upload{
     width:100px;
     position:relative;
     margin:auto;
@@ -128,7 +174,7 @@ background:#d94a00;
 input[type=file]::webkit-file-upload-button{
     cursor:pointer;
 
-}
+} */
 
 /* body {
     font-family: Arial, sans-serif;
